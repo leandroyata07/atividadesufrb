@@ -5,13 +5,11 @@ import { ArrowRight, Sparkles, BookOpen, MessageSquare, Terminal } from 'lucide-
 const Home = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-[calc(100vh-12rem)] py-12 px-4 sm:px-6 lg:px-8">
-      {/* Badge */}
       <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold bg-primary-100 text-primary-800 dark:bg-primary-950/60 dark:text-primary-300 border border-primary-200 dark:border-primary-800/40 mb-6 animate-pulse">
         <Sparkles className="h-3.5 w-3.5" />
         <span>Disponível para Projetos Acadêmicos</span>
       </div>
 
-      {/* Main Hero Header */}
       <div className="text-center max-w-3xl">
         <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white font-sans leading-none">
           Olá, eu sou{' '}
@@ -24,7 +22,6 @@ const Home = () => {
         </p>
       </div>
 
-      {/* Action Buttons */}
       <div className="mt-10 flex flex-wrap gap-4 justify-center">
         <Link to="/sobre" className="btn-primary flex items-center gap-2">
           <span>Ver Sobre Mim</span>
@@ -36,9 +33,7 @@ const Home = () => {
         </Link>
       </div>
 
-      {/* Quick Cards Grid */}
       <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-5xl w-full">
-        {/* Card 1 */}
         <div className="p-6 rounded-2xl glassmorphism hover:shadow-xl hover:scale-[1.02] transition-all duration-300 group">
           <div className="h-10 w-10 rounded-lg bg-primary-100 dark:bg-primary-950/60 flex items-center justify-center text-primary-600 dark:text-primary-400 mb-4 group-hover:bg-primary-600 group-hover:text-white transition-colors duration-300">
             <Terminal className="h-5 w-5" />
@@ -52,7 +47,6 @@ const Home = () => {
           </Link>
         </div>
 
-        {/* Card 2 */}
         <div className="p-6 rounded-2xl glassmorphism hover:shadow-xl hover:scale-[1.02] transition-all duration-300 group">
           <div className="h-10 w-10 rounded-lg bg-indigo-100 dark:bg-indigo-950/60 flex items-center justify-center text-indigo-600 dark:text-indigo-400 mb-4 group-hover:bg-indigo-600 group-hover:text-white transition-colors duration-300">
             <BookOpen className="h-5 w-5" />
@@ -66,7 +60,6 @@ const Home = () => {
           </Link>
         </div>
 
-        {/* Card 3 */}
         <div className="p-6 rounded-2xl glassmorphism hover:shadow-xl hover:scale-[1.02] transition-all duration-300 group">
           <div className="h-10 w-10 rounded-lg bg-purple-100 dark:bg-purple-950/60 flex items-center justify-center text-purple-600 dark:text-purple-400 mb-4 group-hover:bg-purple-600 group-hover:text-white transition-colors duration-300">
             <MessageSquare className="h-5 w-5" />

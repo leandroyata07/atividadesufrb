@@ -4,7 +4,6 @@ import { Download, User, Compass, Calendar, Award } from 'lucide-react';
 const About = () => {
   return (
     <div className="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-      {/* Title */}
       <div className="flex items-center gap-3 mb-8">
         <div className="p-2.5 rounded-xl bg-primary-100 dark:bg-primary-950/60 text-primary-600 dark:text-primary-400">
           <User className="h-6 w-6" />
@@ -13,7 +12,6 @@ const About = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {/* Bio text */}
         <div className="md:col-span-2 space-y-6">
           <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed font-light">
             Olá! Sou estudante na <strong className="font-semibold text-slate-800 dark:text-slate-200">Universidade Federal do Recôncavo da Bahia (UFRB)</strong>, trilhando meu caminho na área da Computação.
@@ -37,7 +35,6 @@ const About = () => {
           </div>
         </div>
 
-        {/* Sidebar stats/highlights */}
         <div className="space-y-4">
           <div className="p-5 rounded-2xl glassmorphism space-y-4 shadow-sm">
             <h4 className="font-bold text-slate-900 dark:text-white border-b border-slate-200 dark:border-slate-800 pb-2">

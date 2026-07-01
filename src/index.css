@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap');
 @import "tailwindcss";
 
-/* Enable class-based dark mode in Tailwind CSS v4 */
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
@@ -35,7 +34,6 @@
   @apply px-6 py-3 font-semibold text-slate-700 dark:text-slate-200 bg-slate-200/80 dark:bg-slate-800/80 hover:bg-slate-300 dark:hover:bg-slate-700 rounded-xl transition-all duration-300 ease-in-out transform hover:-translate-y-0.5 active:translate-y-0 active:scale-95 cursor-pointer;
 }
 
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -50,7 +48,6 @@ body {
   @apply font-sans antialiased bg-slate-50 text-slate-800 transition-colors duration-500 ease-in-out dark:bg-slate-950 dark:text-slate-100;
 }
 
-/* Global smooth transition for background and text colors */
 * {
   @apply transition-colors duration-300 ease-in-out;
 }

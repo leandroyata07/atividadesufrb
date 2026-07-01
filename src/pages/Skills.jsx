@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Terminal, Plus, Sparkles, HelpCircle, Check, Languages } from 'lucide-react';
+import { Terminal, Plus, Sparkles, Check, Languages } from 'lucide-react';
 
 const Skills = () => {
   const [skills, setSkills] = useState(() => {
@@ -60,7 +60,6 @@ const Skills = () => {
 
   return (
     <div className="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-      {/* Title */}
       <div className="flex items-center gap-3 mb-8">
         <div className="p-2.5 rounded-xl bg-purple-100 dark:bg-purple-950/60 text-purple-600 dark:text-purple-400">
           <Terminal className="h-6 w-6" />
@@ -69,7 +68,6 @@ const Skills = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {/* Main interactive skills list */}
         <div className="md:col-span-2 space-y-6">
           <div className="p-6 rounded-2xl glassmorphism shadow-sm">
             <div className="flex items-center justify-between mb-4">
@@ -98,7 +96,6 @@ const Skills = () => {
             </div>
           </div>
 
-          {/* Form to add a new skill */}
           <div className="p-6 rounded-2xl glassmorphism shadow-sm">
             <h3 className="font-bold text-lg text-slate-900 dark:text-white mb-4">
               Adicionar Nova Habilidade
@@ -139,7 +136,6 @@ const Skills = () => {
                 </div>
               </div>
 
-              {/* Feedback messages */}
               {feedback.message && (
                 <div
                   className={`text-xs font-semibold px-2 py-1 rounded transition-colors ${
@@ -159,7 +155,6 @@ const Skills = () => {
           </div>
         </div>
 
-        {/* Sidebar content: Languages */}
         <div>
           <div className="p-6 rounded-2xl glassmorphism shadow-sm space-y-4">
             <h3 className="font-bold text-lg text-slate-900 dark:text-white flex items-center gap-2 border-b border-slate-200 dark:border-slate-800 pb-2">

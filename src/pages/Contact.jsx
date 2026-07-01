@@ -18,7 +18,6 @@ const Contact = () => {
 
   return (
     <div className="max-w-4xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-      {/* Title */}
       <div className="flex items-center gap-3 mb-8">
         <div className="p-2.5 rounded-xl bg-emerald-100 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400">
           <MessageSquare className="h-6 w-6" />
@@ -27,11 +26,9 @@ const Contact = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {/* Contact info details */}
         <div className="space-y-4">
           <h3 className="font-bold text-lg text-slate-900 dark:text-white mb-4">Informações</h3>
           
-          {/* Email card */}
           <a
             href="mailto:leandroyata07@hotmail.com"
             className="flex items-center gap-4 p-4 rounded-2xl glassmorphism hover:border-emerald-500/50 hover:scale-[1.01] transition-all duration-300 shadow-sm"
@@ -45,7 +42,6 @@ const Contact = () => {
             </div>
           </a>
 
-          {/* Github card */}
           <a
             href="https://github.com/leandroyata07"
             target="_blank"
@@ -62,7 +58,6 @@ const Contact = () => {
           </a>
         </div>
 
-        {/* Message form */}
         <div className="md:col-span-2">
           <div className="p-6 rounded-2xl glassmorphism shadow-sm">
             <h3 className="font-bold text-lg text-slate-900 dark:text-white mb-4">
